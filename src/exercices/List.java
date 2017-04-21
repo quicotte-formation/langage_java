@@ -1,9 +1,11 @@
+package exercices;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercices;
+
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -12,7 +14,7 @@ import java.util.Date;
  *
  * @author formation
  */
-public class Collections { 
+public class List { 
     
     public static void main(String[] args) {
         
@@ -45,7 +47,14 @@ public class Collections {
         System.out.println( "C contient 'a' : " + listeC.contains("a") );
         
         // 6. Affichie listeC
+        listeC.addAll( listeA );
         System.out.println( listeC );
+        
+        for(String elem:listeC)
+            System.out.println(elem);
+        
+        for(int i=0;i<listeC.size();i++)
+            System.out.println( listeC.get(i) );
         
         // Liste typée
 //        ArrayList<String> titres = new ArrayList<String>();
