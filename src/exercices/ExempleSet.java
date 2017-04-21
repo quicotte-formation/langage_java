@@ -12,7 +12,7 @@ import java.util.LinkedHashSet;
  *
  * @author formation
  */
-public class Set {
+public class ExempleSet {
     
     public static void main(String[] args) {
         

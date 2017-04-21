@@ -14,7 +14,7 @@ import java.util.Date;
  *
  * @author formation
  */
-public class List { 
+public class ExempleList { 
     
     public static void main(String[] args) {
         
