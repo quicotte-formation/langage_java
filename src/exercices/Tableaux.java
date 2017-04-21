@@ -8,7 +8,7 @@ package exercices;
 import java.util.Random;
 
 /**
- * Ma classe Tableaux et sa javadoc.
+ * Exercices sur tableau à 2 dimensions.
  * @author formation
  */
 public class Tableaux {
