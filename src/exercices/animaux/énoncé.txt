@@ -1,0 +1,17 @@
+Créer une classe abstraite Animal contenant:
+
+- nom
+- coordonnées x et y initialisées à zéro
+- méthode abstraite bouger
+- méthode abstraite manger
+
+Créer 2 classe concrètes qui héritent d' Animal:
+
+- Oiseau
+- Poisson
+
+Créer un test unitaire qui va:
+
+1. Instancier une liste d'animaux (généricité)
+2. Y ajouter 2 oiseaux et 2 poissons
+3. Itérer sur cette liste (foreach) et faire bouger et manger chaque animal
