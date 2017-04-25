@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercices.objet;
+package exercices.hierearchiepers;
 
 /**
  *
@@ -11,8 +11,8 @@ package exercices.objet;
  */
 public class Personne {
     
-    private String nom;
-    private String prenom;
+    protected String nom;
+    protected String prenom;
 
     public String getNom() {
         return nom;

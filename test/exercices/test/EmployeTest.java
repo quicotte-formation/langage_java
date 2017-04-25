@@ -5,7 +5,7 @@
  */
 package exercices.test;
 
-import exercices.objet.Employe;
+import exercices.hierearchiepers.Employe;
 import org.junit.Test;
 
 /**
