@@ -18,11 +18,9 @@ public class AnimalTest {
     public void testConstructeur(){
         
         
-        Animal renard = new Animal("rox", "renards", 4);
-//        Animal corbeau = new Animal("croa", "corbeau", 2);
+        Animal renard = new Animal("rox", "renards", 4);// Constructeur avec 3 params
 
-
-        Animal corbeau = new Animal();
+        Animal corbeau = new Animal();// Constructeur sans param
         corbeau.setNom("Corbeau");
         corbeau.setNbPattes(2);
         

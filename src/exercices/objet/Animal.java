@@ -19,10 +19,7 @@ public class Animal {
         this.nom = nom;
         this.nbPattes = nbPattes;
     }
-    
-    /**
-     * Crée un nouvel animal vide.
-     */
+
     public Animal() {
     }
 
